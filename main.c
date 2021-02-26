@@ -31,7 +31,7 @@ int main(int argc, char **argv)
       case ')' : pop(&s);x3--;break;
       }   
     // if(check)break;
-    // printf("%d\n",s.size);
+   //printf("%d\n",s.size);
      }
 if(s.size>0 || x1 !=0 || x2 !=0 || x3 !=0)
      {
@@ -44,7 +44,11 @@ if(s.size>0 || x1 !=0 || x2 !=0 || x3 !=0)
        // printf("%d\n",s.size);
      } 
     // check = 0;
+    x1 = 0;
+     x2 = 0;
+     x3 = 0;
      pop_all(&s);
+  
   }
    return 0;
 }
